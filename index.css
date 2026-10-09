@@ -17,10 +17,11 @@ body{
     margin-bottom: 50px;
     color: whitesmoke;
     text-shadow: 2px 2px 6px #000000;
+    font-size: 30px;
 }
 
 #title {
-    font-size: 30px;
+    font-size: 40px;
     color: whitesmoke;
     text-shadow: 2px 2px 6px #000000;
     margin-bottom: 10px;
