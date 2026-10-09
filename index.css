@@ -1,0 +1,51 @@
+body{
+    background: url(https://www.pngmagic.com/product_images/pink-christmas-wallpaper-with-festive-wreaths-and-bows_zPe.jpeg);
+    background-size: cover;
+}
+
+#container {
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;    
+}
+
+#hey {
+    margin: 5px;
+    margin-bottom: 50px;
+    color: whitesmoke;
+    text-shadow: 2px 2px 6px #000000;
+}
+
+#title {
+    font-size: 30px;
+    color: whitesmoke;
+    text-shadow: 2px 2px 6px #000000;
+    margin-bottom: 10px;
+    margin-top: 230px;
+}
+
+#merry-christmas {
+    font-size: 50px;
+    color: whitesmoke;
+    text-shadow: 2px 2px 6px #000000;
+    margin-bottom: 50px;
+}
+
+
+#gift {
+    width:400px ;
+    height:400px ; 
+    background: url(images/gift-cover.jpg);
+    border-radius: 50%;
+    border: 6px solid #ff0000;
+}
+
+#gift:hover {
+    transform: scale(1.1);
+    transition: 0.4s;
+    background: url(images/rick.gif);
+    background-size: 400px 400px;
+}
